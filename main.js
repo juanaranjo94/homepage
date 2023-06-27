@@ -89,7 +89,7 @@ const getPostsEN = () => {
 const getPostsES = () => {
     fs.readdir(dirPathES, (err, files) => {
         if (err) {
-            return console.log("Failed to list contents of directory: " + err)
+            return console.log("No se pudo listar el contenido del directorio:" + err)
         }
         files.forEach((file, i) => {
 
